@@ -1,0 +1,324 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    background: linear-gradient(to bottom left, #000082,black);
+}
+
+header{
+    position: absolute;
+    width: 100vw;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.lg{
+    font-size: 30px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: #fff;
+}
+
+.btvoltar{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color:transparent;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    z-index: 777;
+}
+
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 4000px;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    top: -190px;
+}
+
+.telaEquipe{
+ 
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.tell{
+    position: relative;
+    width: 68%;
+    min-height: 370px;
+    height: auto;
+    background-color: transparent;
+    border-radius: 20px;
+    /* border: 2px solid #fff; */
+    box-shadow: 0px 0px 3px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    top: 90px;
+}
+
+.btampliar{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: #000082;
+    border-radius: 10px;
+    right: 40px;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.nome{
+    position: absolute;
+    width: 21%;
+    height: 60px;
+    background-color: transparent;
+    top: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: cyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.fts{
+    width: 260px;
+    height: 250px;
+    background-color: yellow;
+    border-radius: 20px;
+  
+}
+
+.ft1{   
+    background-image: url(../equipe/gustavo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ft2{
+    background-image: url(../equipe/.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ft3{
+    background-image: url(../equipe/larisa.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ft4{
+    background-image: url(../equipe/alex.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ft5{
+    background-image: url(../equipe/grazi.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ft6{
+    background-image: url(../equipe/ingrid.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ft7{
+    background-image: url(../equipe/bianca.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ft8{
+    background-image: url(../equipe/paola.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.txtequipe{
+    width: 550px;
+    height: 80px;
+    background-color:transparent;
+    /* box-shadow: 0px 0px 3px rgb(255, 255, 255); */
+    margin-right: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: self-start;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    transition: height 1s;
+    color: aqua;
+    overflow: hidden;
+    
+}
+
+.txtequipemaio{
+    width: 550px;
+    height: 190px;
+    background-color:transparent;
+    /* box-shadow: 0px 0px 3px rgb(255, 255, 255); */
+    margin-right: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: self-start;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    transition: height 1s;
+    color: cyan;
+    overflow: hidden;
+}
+
+@media (max-width:740px){
+    main{
+        width: 100vw;
+        height: 4000px;
+        /* border: 2px solid blue; */
+        display: flex;
+        justify-content: flex-start;
+        align-items: end;
+        flex-direction: column;
+    
+    }
+    
+    .telaEquipe{
+        position: relative;
+        top: 160px;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    
+    .tell{
+        position: relative;
+        width: 90%;
+        min-height: 370px;
+        height: auto;
+        background-color: transparent;
+        border-radius: 20px;
+        /* border: 2px solid #fff; */
+        box-shadow: 0px 0px 3px rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        top: 90px;
+    }
+
+
+    .btampliar{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background-color: #01ff45;
+        border-radius: 10px;
+        left: 10%;
+        transform: translate(-50%,-50%);
+        top: 210px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;  
+        color: #ffffff;
+        cursor: pointer;
+        z-index: 300;
+    }
+
+    .nome{
+        position: absolute;
+        width: 80%;
+        height: 60px;
+        background-color: transparent;
+        top: -60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: cyan;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+    }
+    .fts{
+
+        width: 210px;
+        height: 210px;
+        background-color: yellow;
+        border-radius: 20px;
+      
+    }
+
+    .txtequipe{
+    width: 100%;
+    height: 90px;
+    background-color:transparent;
+    /* box-shadow: 0px 0px 3px rgb(255, 255, 255); */
+    padding: 10px;
+    margin-right: 0px;
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: self-start;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    transition: height 1s;
+    color: aqua;
+        
+    }
+    
+    .txtequipemaio{
+        width: 100%;
+        height: 230px;
+        background-color:transparent;
+        /* box-shadow: 0px 0px 3px rgb(255, 255, 255); */
+        padding: 10px;
+        margin-right: 0px;
+        margin-top: 20px;
+        display: flex;
+        justify-content:center;
+        align-items: self-start;
+        text-align: center;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+   
+        transition: height 1s;
+        color: aqua;
+    }
+}
